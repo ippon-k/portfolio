@@ -1,0 +1,128 @@
+.body{
+
+}
+.header{
+  background-color: #e5e6ea;
+  height:100px;
+  color:#6202a2;
+}
+a{
+  text-decoration: none;
+}
+.header-left a{
+  color:#6202a2;
+  font-size:50px;
+}
+.header-left{
+  float: left;
+  padding-left: 30px;
+  padding-top:25px;
+}
+.header-right{
+  float: right;
+}
+.header-right a{
+  text-decoration: none;
+  color:#6202a2;
+}
+.header-right ul{
+  padding-right: 20px;
+}
+.header-right li{
+  float: left;
+  margin-right: 15px;
+  margin-top:45px;
+}
+.container-top{
+  background-image: url(../img/top-img.jpg);
+  height:500px;
+  padding-top:70px;
+}
+h2{
+  font-size: 50px;
+  margin-top:70px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.8);
+}
+h3{
+  font-size:30px;
+  border-bottom: 2px solid black;
+  padding-bottom:10px;
+  padding-left:20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.container{
+  background-image: url(../img/back-img.jpg);
+  height:700px;
+  width: 1308px;
+  margin:0 auto;
+}
+.containts{
+  padding-top:50px;
+}
+.containts-item{
+  height: 200px;
+  width:270px;
+  float: left;
+  padding-left:50px;
+  margin-bottom: 50px;
+}
+.containts-item img{
+  height: 190px;
+  width:270px;
+  font-size:100px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.containts-item img:hover{
+  opacity:1;
+  transition: all 0.5s;
+  box-shadow: 4px 6px #1a7940
+}
+.containts-item img:active{
+  position: relative;
+  top:4px;
+}
+.containts-item p{
+  text-align: center;
+  font-size:20px;
+  color:black;
+  letter-spacing: 1px;
+}
+.contact-form{
+  padding-left: 20px;
+}
+input,textarea{
+  width: 400px;
+  margin:10px 30px;
+  padding:10px;
+  font-size:20px;
+  border:2px solid #dee7ec;
+}
+.footer{
+  background-color: #e5e6ea;
+  height:100px;
+  color:#6202a2;
+}
+.footer-logo{
+  float: left;
+}
+.footer-menu ul{
+  float: right;
+}
+.footer-menu li{
+  float: left;
+  padding:45px 20px 0 0;
+}
+.footer-logo p{
+  color:#6202a2;
+  font-size:30px;
+  padding-top:35px;
+}
+.footer-menu a{
+  color:#6202a2;
+}
+.sub-footer{
+  margin: 30px 30px;
+}
