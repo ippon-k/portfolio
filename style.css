@@ -5,6 +5,8 @@
   background-color: #e5e6ea;
   height:100px;
   color:#6202a2;
+  display: flex;
+  width: 1200px;
 }
 a{
   text-decoration: none;
@@ -14,12 +16,12 @@ a{
   font-size:50px;
 }
 .header-left{
-  float: left;
+  /* float: left; */
   padding-left: 30px;
   padding-top:25px;
 }
 .header-right{
-  float: right;
+  /* float: right; */
 }
 .header-right a{
   text-decoration: none;
@@ -27,16 +29,18 @@ a{
 }
 .header-right ul{
   padding-right: 20px;
+  display: flex;
 }
 .header-right li{
-  float: left;
+  /* float: left; */
   margin-right: 15px;
   margin-top:45px;
 }
 .container-top{
-  background-image: url("https://ippon-k.github.io/portfolio/top-img.jpg");
+  background-image: url(../img/top-img.jpg);
   height:500px;
   padding-top:70px;
+  width: 1200px;
 }
 h2{
   font-size: 50px;
@@ -53,20 +57,28 @@ h3{
   opacity: 0.5;
 }
 .container{
-  background-image: url("https://ippon-k.github.io/portfolio/back-img.jpg");
+  background-image: url(../img/back-img.jpg);
   height:700px;
-  width: 1308px;
+  width: 1200px;
   margin:0 auto;
+  display: flex;
 }
 .containts{
   padding-top:50px;
 }
+.containts-block{
+  display:flex;
+  flex-wrap: wrap;
+}
 .containts-item{
   height: 200px;
   width:270px;
-  float: left;
-  padding-left:50px;
+  /* float: left; */
+  /* padding-left:50px; */
   margin-bottom: 50px;
+  flex: auto;
+  width: 25%;
+  text-align: center;
 }
 .containts-item img{
   height: 190px;
@@ -104,15 +116,19 @@ input,textarea{
   background-color: #e5e6ea;
   height:100px;
   color:#6202a2;
+  display: flex;
+  width: 1200px;
 }
 .footer-logo{
-  float: left;
+  /* float: left; */
+  padding-left: 30px;
 }
 .footer-menu ul{
-  float: right;
+  /* float: right; */
+  display: flex;
 }
 .footer-menu li{
-  float: left;
+  /* float: left; */
   padding:45px 20px 0 0;
 }
 .footer-logo p{
