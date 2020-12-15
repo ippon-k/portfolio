@@ -37,7 +37,7 @@ a{
   margin-top:45px;
 }
 .container-top{
-  background-image: url(../img/top-img.jpg);
+  background-image: url("https://ippon-k.github.io/portfolio/top-img.jpg");
   height:500px;
   padding-top:70px;
   width: 1200px;
@@ -57,7 +57,7 @@ h3{
   opacity: 0.5;
 }
 .container{
-  background-image: url(../img/back-img.jpg);
+  background-image: url("https://ippon-k.github.io/portfolio/back-img.jpg");
   height:700px;
   width: 1200px;
   margin:0 auto;
