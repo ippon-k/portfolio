@@ -35,6 +35,7 @@ a{
   /* float: left; */
   margin-right: 15px;
   margin-top:45px;
+  background-image
 }
 .container-top{
   background-image: url("https://ippon-k.github.io/portfolio/top-img.jpg");
@@ -130,6 +131,7 @@ input,textarea{
 .footer-menu li{
   /* float: left; */
   padding:45px 20px 0 0;
+  background-image:none;
 }
 .footer-logo p{
   color:#6202a2;
