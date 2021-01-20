@@ -128,11 +128,15 @@ input,textarea{
 .footer-menu ul{
   /* float: right; */
   display: flex;
+  list-style-type:none;
+  list-style-image:none;
 }
 .footer-menu li{
   /* float: left; */
   padding:45px 20px 0 0;
   background-image:none;
+  list-style-type:none;
+  list-style-image:none;
 }
 .footer-logo p{
   color:#6202a2;
